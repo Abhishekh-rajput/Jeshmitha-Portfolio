@@ -12,5 +12,12 @@ module.exports = {
       }
     },
   },
+  variants:{
+    extend: {
+      display: ['group-focus'],
+      inset:['group-focus']
+
+    },
+  },
   plugins: [],
 }
